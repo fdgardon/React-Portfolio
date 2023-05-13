@@ -16,7 +16,8 @@
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.4.38",
     "web-vitals": "^2.1.4",
-    "@types/react": "^18.0.12"
+    "@types/react": "^18.0.12",
+    "typewriter-effect": "^2.18.2"
   },
   "scripts": {
     "predeploy": "npm run build",
