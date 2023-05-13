@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d7034bf6.css",
-    "main.js": "/static/js/main.9fa5a420.js",
+    "main.js": "/static/js/main.4ef967c9.js",
     "static/media/img4.png": "/static/media/img4.25a03bf57fd795478146.png",
+    "static/media/AnthonyQ-Resume.pdf": "/static/media/AnthonyQ-Resume.5bcdf41de90c72c6a60f.pdf",
     "index.html": "/index.html",
     "main.d7034bf6.css.map": "/static/css/main.d7034bf6.css.map",
-    "main.9fa5a420.js.map": "/static/js/main.9fa5a420.js.map"
+    "main.4ef967c9.js.map": "/static/js/main.4ef967c9.js.map"
   },
   "entrypoints": [
     "static/css/main.d7034bf6.css",
-    "static/js/main.9fa5a420.js"
+    "static/js/main.4ef967c9.js"
   ]
 }
