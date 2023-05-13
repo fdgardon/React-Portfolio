@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../stylesheets/about.css";
+import "../stylesheets/navbar.css";
 import Resume from "../assets/AnthonyQ-Resume.pdf";
 
 function Navbar({ currentPage, handlePageChange }) {

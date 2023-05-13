@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://github.com/fdgardon/React-Portfolio#readme",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +15,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.4.38",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@types/react": "^18.0.12"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -42,5 +43,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "# 20 React: React Portfolio",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdgardon/React-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdgardon/React-Portfolio/issues"
   }
 }

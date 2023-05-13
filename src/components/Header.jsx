@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
-import "../stylesheets/about.css";
+import "../stylesheets/header.css";
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <>
       <header>
-        {/* <a href="" className="nav-branding"> */}
-          Portfolio
-        {/* </a> */}
+        <a href="#" className="nav-branding">
+          Farid Gardoon
+        </a>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
     </>
