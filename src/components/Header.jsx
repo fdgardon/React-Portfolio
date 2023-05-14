@@ -6,7 +6,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <>
       <header>
-        <a href="#" className="nav-branding">
+        <a href="" className="nav-branding">
           Farid Gardoon
         </a>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />

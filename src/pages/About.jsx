@@ -2,7 +2,7 @@ import React from "react";
 import Pic from "../pages/img4.png";
 import "../stylesheets/about.css";
 
-import Typed from "react-typed";
+// import Typed from "react-typed";
 
 function About() {
     return (
@@ -11,18 +11,7 @@ function About() {
             <div class="home-content">
                 <h3>Hello, It's Me</h3>
                 <h1>Farid Gardoon</h1>
-                <h3>And I'm a <span class="multiple-text">
-                    <Typed
-                        strings={[
-                            "Full Stack Developer",
-                            "Software Developer",
-                        ]}
-                        typeSpeed = {100}
-                        backSpeed = {100}
-                        backDelay = {1000}
-                        loop
-                />
-                </span></h3>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
                 <p>Welcome to my professional software engineering portfolio. I have done a couple of projects successfully
                     and I hope you enjoy from my work. </p>
                 <div class="social-media">
