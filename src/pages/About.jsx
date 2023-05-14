@@ -26,10 +26,15 @@ function About() {
                 <p>Welcome to my professional software engineering portfolio. I have done a couple of projects successfully
                     and I hope you enjoy from my work. </p>
                 <div class="social-media">
-                    {/* <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
-                <a href="#" style="--i:8;"><i class='bx bxl-twitter'></i></a>
-                <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#" style="--i:10;"><i class='bx bxl-linkedin'></i></a> */}
+                <a
+        href="https://github.com/fdgardon"
+        target="_blank"
+        className="icon-container"
+      >
+        <i className="bi bi-github"></i>
+        <p>GitHub</p>
+      </a>
+                
                 </div>
                 {/* <a href="#" class="btn">Download CV</a> */}
             </div>
