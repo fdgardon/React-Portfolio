@@ -6,6 +6,7 @@ import ProjectPage from "../pages/ProjectPage";
 import About from "../pages/About";
 import { Contact } from "../pages/Contact";
 
+
 export default function Homepage() {
   const [currentPage, setCurrentPage] = useState("About");
 

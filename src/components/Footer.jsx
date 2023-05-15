@@ -18,7 +18,7 @@ function Footer() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/farid-gardoon/"
+        href="https://www.linkedin.com/in/farid-gardoon-249891106/"
         target="_blank"
         className="icon-container"
       >

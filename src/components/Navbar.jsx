@@ -24,7 +24,7 @@ function Navbar({ currentPage, handlePageChange }) {
               currentPage === "About" ? "nav-link selected" : "nav-link"
             }
           >
-            About
+            About Me
           </a>
         </li>
         <li className="nav-item">
