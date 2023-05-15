@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import ProjectPage from "../pages/ProjectPage";
 import About from "../pages/About";
-import { Contact } from "../pages/Contact";
+import {Contact} from "../pages/Contact";
 
 
 export default function Homepage() {
