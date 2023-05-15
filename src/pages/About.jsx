@@ -2,7 +2,6 @@ import React from "react";
 import Pic from "../assets/myPic.png";
 import "../stylesheets/about.css";
 import { Typewriter } from 'react-simple-typewriter'
-// import Typed from "react-typed";
 
 function About() {
     return (
@@ -23,8 +22,8 @@ function About() {
                     />
                 </span></h3>
                 <p>Welcome to my portfolio. I am currently student in Full Stack Development BootCamp at UC Davis.
-                   I have ten years of experiences in humanitarian activities, I am looking for opportunities to start 
-                   a new career in coding and software Engineering. </p>
+                    I have ten years of experiences in humanitarian activities, I am looking for opportunities to start
+                    a new career in coding and software Engineering. </p>
             </div>
             <div class="home-img">
                 <img id="img-of-me" src={Pic} alt="Img of myself" />

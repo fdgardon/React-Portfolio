@@ -3,7 +3,6 @@ import "../stylesheets/navbar.css";
 import Resume from "../assets/Resume- Farid- Gardoon.pdf";
 
 function Navbar({ currentPage, handlePageChange }) {
-  // State for whether the hamburger menu is active
   const [isActive, setActive] = useState("false");
 
   const handleToggle = () => {

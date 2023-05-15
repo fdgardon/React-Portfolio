@@ -10,7 +10,6 @@ import {Contact} from "../pages/Contact";
 export default function Homepage() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === "About") {
       return <About />;
@@ -30,7 +29,6 @@ export default function Homepage() {
     <React.StrictMode>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
-        {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
       </main>
       <Footer />
