@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../stylesheets/navbar.css";
-import Resume from "../assets/AnthonyQ-Resume.pdf";
+import Resume from "../assets/Resume- Farid- Gardoon.pdf";
 
 function Navbar({ currentPage, handlePageChange }) {
   // State for whether the hamburger menu is active

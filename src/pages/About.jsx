@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../pages/img4.png";
+import Pic from "../assets/myPic.png";
 import "../stylesheets/about.css";
 import { Typewriter } from 'react-simple-typewriter'
 // import Typed from "react-typed";
@@ -22,8 +22,9 @@ function About() {
                         loop
                     />
                 </span></h3>
-                <p>Welcome to my professional software engineering portfolio. I have done a couple of projects successfully
-                    and I hope you enjoy from my work. </p>
+                <p>Welcome to my portfolio. I am currently student in Full Stack Development BootCamp at UC Davis.
+                   I have ten years of experiences in humanitarian activities, I am looking for opportunities to start 
+                   a new career in coding and software Engineering. </p>
             </div>
             <div class="home-img">
                 <img id="img-of-me" src={Pic} alt="Img of myself" />

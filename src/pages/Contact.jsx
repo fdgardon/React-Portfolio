@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "../stylesheets/about.css";
 import"../stylesheets/footer.css";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 // import { defaults } from "gh-pages";
 // import "../../styles/form.css";
@@ -51,12 +51,19 @@ export const Contact = () => {
   
     const sendEmail = (e) => {
       e.preventDefault();
+      if (form.current[0].value === "") {
+              Swal.fire("Uh oh!", "Name can't be left blank.", "error");
+              return;
+            }
   
       emailjs.sendForm('service_i2zovv8', 'template_ydeqccb', form.current, '5ZeAbjvk30ZVvk5Fx')
         .then((result) => {
             console.log(result.text);
+            console.log("Sent!");
+            Swal.fire("Success!", "Message was successfully sent!", "success");
         }, (error) => {
             console.log(error.text);
+            Swal.fire("Uh oh!", "An unexpected error occurred.", "error");
         });
     };
 

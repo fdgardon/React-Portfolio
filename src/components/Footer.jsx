@@ -1,6 +1,5 @@
 import React from "react";
 import "../stylesheets/footer.css";
-import Resume from "../assets/AnthonyQ-Resume.pdf";
 
 function Footer() {
   return (
