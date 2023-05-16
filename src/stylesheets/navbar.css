@@ -39,6 +39,11 @@ li {
   .nav-link:hover {
     color: #98f3bf;
   }
+
+  .nav-link.selected {
+    color: #4bf996;
+    font-weight: bold;
+  }
   
   .hamburger {
     display: none;
