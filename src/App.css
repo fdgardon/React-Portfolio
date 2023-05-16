@@ -224,16 +224,16 @@ body {
     
 }
 
-#projects{
+/* #projects{
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin-top: 200px;
     margin-bottom: 200px;
     
-}
+} */
 
-#projects h1{
+/* #projects h1{
     display: center;
     box-sizing: border-box;
     margin-bottom: 50px;
@@ -276,7 +276,7 @@ body {
     color: white;
     border: none;
     
-}
+} */
 
 #portfolio{
     display: center;
