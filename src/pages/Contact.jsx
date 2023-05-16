@@ -3,6 +3,7 @@ import "../stylesheets/about.css";
 import"../stylesheets/footer.css";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
+import { Typewriter } from 'react-simple-typewriter'
 
 export const Contact = () => {
     const form = useRef();

@@ -34,6 +34,7 @@ li {
     transition: 0.3s ease;
     font-size: 18px;
     padding: 0.5rem 1rem;
+
   }
   
   .nav-link:hover {
@@ -43,6 +44,8 @@ li {
   .nav-link.selected {
     color: #4bf996;
     font-weight: bold;
+    border: 1px solid rgb(188, 183, 183);
+    border-radius: 5%;
   }
   
   .hamburger {
