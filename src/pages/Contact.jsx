@@ -3,7 +3,6 @@ import "../stylesheets/about.css";
 import"../stylesheets/footer.css";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { Typewriter } from 'react-simple-typewriter'
 
 export const Contact = () => {
     const form = useRef();
@@ -20,6 +19,7 @@ export const Contact = () => {
             console.log(result.text);
             console.log("Sent!");
             Swal.fire("Success!", "Message was successfully sent!", "success");
+            return window.location.reload(true)
         }, (error) => {
             console.log(error.text);
             Swal.fire("Uh oh!", "An unexpected error occurred.", "error");
@@ -38,4 +38,6 @@ export const Contact = () => {
     </section>
   );
 };
+
+
 
