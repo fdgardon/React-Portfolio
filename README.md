@@ -1,7 +1,7 @@
 # React-Portfolio
 
 ## Description
-I create a professional React Portfolio to eliberit my abilities to the employer that I can handle full stack projects.
+I created this professional React Portfolio to demonstrate my abilities to the employer that I can handle full stack projects.
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
