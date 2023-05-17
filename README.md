@@ -36,8 +36,11 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-## Mock-Up
-
+## Image of Application:
 The following screenshot shows the web application's appearance and functionality:
+![Screen Shot 2023-05-16 at 7 01 18 PM (2)](https://github.com/fdgardon/React-Portfolio/assets/119641606/58256ecd-cfc1-4a28-b265-a2724845c468)
 
+## Mock-Up
+This project has been deployed to Heroku. To get this project up and running, you can follow the video link. Or, download the sources files to use this as a template.
 
+Check my work - Click https://fdgardon.github.io/React-Portfolio/
