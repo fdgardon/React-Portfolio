@@ -4,11 +4,12 @@ import "../stylesheets/project.css";
 
 // Importing project screenshots
 import techBlog from "../assets/MVC-Blog.png";
-// import popUmai from "../../assets/project-img/pop-umai.png";
-// import platello from "../../assets/project-img/platello.png";
-// import employeeTracker from "../../assets/project-img/employee-tracker.png";
+import weatherDash from "../assets/weather-dashboard.png";
+import searchMovie from "../assets/searchMovie.png";
+import employeeTracker from "../assets/employee-tracker.png";
 // import socialNetwork from "../../assets/project-img/social-network-api.png";
 import codingQuiz from "../assets/coding-quiz.png"
+import funFinder from "../assets/fun-finder.png"
 
 function ProjectPage() {
   return (
@@ -27,16 +28,16 @@ function ProjectPage() {
         />
 
         <Project
-          title="Pop Umai Website"
-        //   src={popUmai}
+          title="Weather Dashboard"
+          src={weatherDash}
           deployedLink="https://pop-umai.herokuapp.com"
           sourceLink="https://github.com/PreDevz/POP-Umai"
           alt="Screenshot of Pop Umai's homepage"
         />
 
         <Project
-          title="Platello"
-        //   src={platello}
+          title="Search Movie"
+          src={searchMovie}
           deployedLink="https://predevz.github.io/Platello/"
           sourceLink="https://github.com/PreDevz/Platello"
           alt="Screenshot of Platello's homepage"
@@ -44,16 +45,16 @@ function ProjectPage() {
 
         <Project
           title="Employee Tracker"
-        //   src={employeeTracker}
+          src={employeeTracker}
           deployedLink=""
           sourceLink="https://github.com/TonyQ032/Employee-Tracker"
           alt="Screenshot of Employee Tracker app running in a MacOS terminal"
         />
 
         <Project
-          title="Social Network API"
-        //   src={socialNetwork}
-          deployedLink=""
+          title="Fun Finder"
+          src={funFinder}
+          deployedLink="https://fdgardon.github.io/fun-finder/"
           sourceLink="https://github.com/TonyQ032/Social-Network-API"
           alt="Screenshot of API data retrieved in Insomnia"
         />

@@ -6,7 +6,6 @@ function Footer() {
     <footer>
        <h3>Please Reach Out Me!</h3>
       <div class="social-media">
-       
       <a
         href="https://github.com/fdgardon"
         target="_blank"
@@ -15,7 +14,6 @@ function Footer() {
         <i className="bi bi-github"></i>
         <p>GitHub</p>
       </a>
-
       <a
         href="https://www.linkedin.com/in/farid-gardoon-249891106/"
         target="_blank"

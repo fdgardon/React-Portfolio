@@ -38,6 +38,8 @@
     background-color: transparent;
     border-radius: 5px;
     padding: 2rem 1rem;
+    animation: zoomIn 1s ease forwards, floatImage 5s ease-in-out infinite;
+    animation-delay: 1s, 3s;
   }
   
   .button-container button {

@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { useState } from "react";
 import "../stylesheets/about.css";
 import"../stylesheets/footer.css";
 import Swal from "sweetalert2";
@@ -12,8 +11,6 @@ export const Contact = () => {
       e.preventDefault();
       if (form.current[0].value === "") {
               Swal.fire("Uh oh!", "Name can't be left blank.", "error");
-              
-             
             }
   
       emailjs.sendForm('service_i2zovv8', 'template_ydeqccb', form.current, '5ZeAbjvk30ZVvk5Fx')
@@ -21,20 +18,12 @@ export const Contact = () => {
             console.log(result.text);
             console.log("Sent!");
             Swal.fire("Success!", "Message was successfully sent!", "success");
-            // return window.location.reload(true
-            // return
-            // const [name, setName] = useState([]);
-            // const [email, setEmail] = useState([]);
-            // const [message, setMessage] = useState([]);
-           
+           form.current.reset()
         }, (error) => {
             console.log(error.text);
             Swal.fire("Uh oh!", "An unexpected error occurred.", "error");
         });
     };
-    // function name (e) {
-    //   const name = e.target.value;
-    // }
  
   return (
     <section id="contact">
@@ -50,21 +39,3 @@ export const Contact = () => {
   );
  
 };
-
-
-// const handleNameChange = () =>{
-//   [name, setName] = useState("");
-// };
-// const handleEmailChange = () => {
-// [email, setEmail] = useState("")
-// };
-// const handleMessageChange = () =>{
-//   [message, setMessage] = useState("")
-// };
-// value={{name}} onChange = {handleNameChange}
-// value={email} onChange= {handleEmailChange}
-// value={message} onChange = {handleMessageChange}
-
-// value={email} onClick={email}
-// value={name} onClick={name} 
-// value={message} onClick={message}
