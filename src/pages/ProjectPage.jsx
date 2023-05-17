@@ -2,12 +2,10 @@ import React from "react";
 import Project from "./Project";
 import "../stylesheets/project.css";
 
-// Importing project screenshots
 import techBlog from "../assets/MVC-Blog.png";
 import weatherDash from "../assets/weather-dashboard.png";
 import searchMovie from "../assets/searchMovie.png";
 import employeeTracker from "../assets/employee-tracker.png";
-// import socialNetwork from "../../assets/project-img/social-network-api.png";
 import codingQuiz from "../assets/coding-quiz.png"
 import funFinder from "../assets/fun-finder.png"
 
@@ -22,24 +20,24 @@ function ProjectPage() {
         <Project
           title="Tech Blog"
           src={techBlog}
-          deployedLink="https://tony-tech-blog.herokuapp.com"
-          sourceLink="https://github.com/TonyQ032/Tonys-Tech-Blog"
+          deployedLink="https://lit-depths-57508.herokuapp.com/"
+          sourceLink="https://github.com/fdgardon/MVC-Blog"
           alt="Screenshot of Tony's Tech Blog homepage"
         />
 
         <Project
           title="Weather Dashboard"
           src={weatherDash}
-          deployedLink="https://pop-umai.herokuapp.com"
-          sourceLink="https://github.com/PreDevz/POP-Umai"
+          deployedLink="https://fdgardon.github.io/Weather-Dashboard/"
+          sourceLink="https://github.com/fdgardon/Weather-Dashboard"
           alt="Screenshot of Pop Umai's homepage"
         />
 
         <Project
           title="Search Movie"
           src={searchMovie}
-          deployedLink="https://predevz.github.io/Platello/"
-          sourceLink="https://github.com/PreDevz/Platello"
+          deployedLink="https://safe-basin-64806.herokuapp.com/login"
+          sourceLink="https://github.com/fdgardon/movie-search"
           alt="Screenshot of Platello's homepage"
         />
 
@@ -47,7 +45,7 @@ function ProjectPage() {
           title="Employee Tracker"
           src={employeeTracker}
           deployedLink=""
-          sourceLink="https://github.com/TonyQ032/Employee-Tracker"
+          sourceLink="https://github.com/fdgardon/Employee-Tracker-by-MySql"
           alt="Screenshot of Employee Tracker app running in a MacOS terminal"
         />
 
@@ -55,15 +53,14 @@ function ProjectPage() {
           title="Fun Finder"
           src={funFinder}
           deployedLink="https://fdgardon.github.io/fun-finder/"
-          sourceLink="https://github.com/TonyQ032/Social-Network-API"
-          alt="Screenshot of API data retrieved in Insomnia"
+          sourceLink="https://github.com/fdgardon/fun-finder"
         />
 
         <Project
           title="Coding Quiz"
           src={codingQuiz}
-          deployedLink="https://tonyq032.github.io/Coding-Quiz/"
-          sourceLink="https://github.com/TonyQ032/Coding-Quiz"
+          deployedLink="https://fdgardon.github.io/Code-Quiz-Master/"
+          sourceLink="https://github.com/fdgardon/Code-Quiz-Master"
           alt="Screenshot of coding quiz"
         />
       </div>
