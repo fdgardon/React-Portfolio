@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.73f1bd44.css",
+    "main.js": "/my-app/static/js/main.23a634e9.js",
+    "static/media/employee-tracker.png": "/my-app/static/media/employee-tracker.47f66e5db0fc48fb6546.png",
+    "static/media/fun-finder.png": "/my-app/static/media/fun-finder.954862ca3c18e4a0e5d5.png",
+    "static/media/myPic.png": "/my-app/static/media/myPic.25a03bf57fd795478146.png",
+    "static/media/weather-dashboard.png": "/my-app/static/media/weather-dashboard.fa61a4238863356cef1b.png",
+    "static/media/coding-quiz.png": "/my-app/static/media/coding-quiz.7cd1b2765aa411344bf7.png",
+    "static/media/bootstrap-icons.woff?": "/my-app/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/Resume- Farid- Gardoon.pdf": "/my-app/static/media/Resume- Farid- Gardoon.84163492dccf407fe49a.pdf",
+    "static/media/searchMovie.png": "/my-app/static/media/searchMovie.f3b01588c3759746895c.png",
+    "static/media/bootstrap-icons.woff2?": "/my-app/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/MVC-Blog.png": "/my-app/static/media/MVC-Blog.285a3881ab3c362e28da.png",
+    "index.html": "/my-app/index.html",
+    "main.73f1bd44.css.map": "/my-app/static/css/main.73f1bd44.css.map",
+    "main.23a634e9.js.map": "/my-app/static/js/main.23a634e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73f1bd44.css",
+    "static/js/main.23a634e9.js"
+  ]
+}
