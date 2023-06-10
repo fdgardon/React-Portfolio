@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./Project";
 import "../stylesheets/project.css";
 
+import medicationTracker from "../assets/medicationTracker.png";
 import techBlog from "../assets/MVC-Blog.png";
 import weatherDash from "../assets/weather-dashboard.png";
 import searchMovie from "../assets/searchMovie.png";
@@ -18,11 +19,19 @@ function ProjectPage() {
 
 
         <Project
+          title="Medication Tracker"
+          src={medicationTracker}
+          deployedLink="https://stark-brook-88760.herokuapp.com/"
+          sourceLink="https://github.com/fdgardon/MedicationTracker"
+          alt="Screenshot of medication tracker homepage"
+        />
+        
+        <Project
           title="Tech Blog"
           src={techBlog}
           deployedLink="https://lit-depths-57508.herokuapp.com/"
           sourceLink="https://github.com/fdgardon/MVC-Blog"
-          alt="Screenshot of Tony's Tech Blog homepage"
+          alt="Screenshot of Tech Blog homepage"
         />
 
         <Project
@@ -30,7 +39,7 @@ function ProjectPage() {
           src={weatherDash}
           deployedLink="https://fdgardon.github.io/Weather-Dashboard/"
           sourceLink="https://github.com/fdgardon/Weather-Dashboard"
-          alt="Screenshot of Pop Umai's homepage"
+          alt=""
         />
 
         <Project
@@ -38,7 +47,7 @@ function ProjectPage() {
           src={searchMovie}
           deployedLink="https://safe-basin-64806.herokuapp.com/login"
           sourceLink="https://github.com/fdgardon/movie-search"
-          alt="Screenshot of Platello's homepage"
+          alt=""
         />
 
         <Project
